@@ -1,30 +1,29 @@
-# My first godot game
+# Dodge the Creeps — игра на выживание
 
-This is my first godot game made using [your first 2d game godot engine 4.2 documentation tutorial](https://docs.godotengine.org/en/4.2/getting_started/first_2d_game/index.html)
+Это учебный проект, созданный в рамках учебной практики. 
+
+##  Уровни сложности
+
+В игру добавлены три уровня сложности, которые влияют на скорость врагов и частоту их появления:
+
+| Сложность | Скорость врагов | Интервал появления |
+|-----------|-----------------|-------------------|
+| Easy | 100-200 | 1.2 сек |
+| Normal | 150-250 | 0.8 сек |
+| Hard | 500-550 | 0.2 сек |
+
+Выбор сложности осуществляется в выпадающем списке перед началом игры.
+
+##  Демонстрация игры
+
+[![Смотреть демонстрацию игры](https://img.youtube.com/vi/PLACEHOLDER/0.jpg)](Демонстрация%20игры.mp4)
+
+*Нажмите на картинку, чтобы открыть видео*
+
+> **Примечание:** Так как в GitHub нельзя встроить видео для прямого просмотра, используется ссылка-картинка. При нажатии на картинку откроется видеофайл, который можно просмотреть или скачать.
 
 ---
 
-This is a simple game where your character must move
-and avoid the enemies for as long as possible.
-
-This is a finished version of the game featured in the
-["Your first 2D game"](https://docs.godotengine.org/en/latest/getting_started/first_2d_game/index.html)
-tutorial in the documentation. For more details,
-consider following the tutorial in the documentation.
-
-Language: GDScript
-
-Renderer: Vulkan Mobile
-
-Check out this demo on the asset library: <https://godotengine.org/asset-library/asset/515>
-
-## Screenshots
-
-![GIF from the documentation](https://docs.godotengine.org/en/latest/_images/dodge_preview.gif)
-
-![Screenshot](https://github.com/godotengine/godot-demo-projects/blob/master/2d/dodge_the_creeps/screenshots/dodge.png?raw=true)
-
-> Screenshots taken from [godo demo projects -- dodge_the_creeps](https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps)
 
 ## Copying
 
